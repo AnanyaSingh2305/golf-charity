@@ -212,8 +212,8 @@ const card = {
 };
 
 const title = {
-  textAlign: "center",
-  marginBottom: "20px",
+  textAlign: "center" as const,
+  marginBottom: "10px",
 };
 
 const input = {
